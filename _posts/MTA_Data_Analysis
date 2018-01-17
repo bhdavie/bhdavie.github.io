@@ -1,4 +1,7 @@
-MTA Data Analysis:
+---
+layout: post
+title: MTA Data Analysis
+---
 
 
 My first week at Metis Data Science Bootcamp began with a group project. Our team was tasked to identify the ideal subway entrances to spread awareness for a fictional organization called WomenTechWomenYes. Our recommendation focused on stations with high rider volume, favorable demographics, and locations near major tech centers in NYC.
