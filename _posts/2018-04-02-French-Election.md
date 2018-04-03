@@ -101,7 +101,7 @@ There were several features that had a strong impact on model accuracy:
 
 **Proportion of registered voters who expressed an interest in voting:** The two candidates from the mainstream parties, Fillon of The Republicans and Hamon of the Socialist Party, won towns with a higher percent of registered voters who expressed an interest in voting. Towns with a larger proportion of interested registered voters were more likely to vote along traditional party lines.
 
-**Proportion of registered voters who expressed an interest in abstention:** The political outsiders, Macron and Le Pen, won towns with a proportion of registered voters who expressed an interest not to vote for any candidate. As registered voters are likely registered to traditional parties, towns with fewer interested registered voters give outsiders a better chance.
+**Proportion of registered voters who expressed an interest in abstention:** The political outsiders, Macron and Le Pen, won towns with a higher proportion of registered voters who expressed an interest in abstaining their vote. As registered voters are likely registered to traditional parties, towns with fewer interested registered voters give outsiders a better chance.
 
 **Population of the town:** As I demonstrated in earlier graphics, population was a major factor in a town’s voting pattern.
 
