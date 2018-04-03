@@ -62,7 +62,7 @@ Macron ultimately won the popular vote with 23.96% of the vote, edging out Le Pe
 
 Macron and Le Pen were neck and neck in the first round but the way they got there varied tremendously. The disparity in voter demographics is amplified when we look at the winners of the first round by towns. Despite Macron winning the popular vote, Le Pen dominated every other candidate in the number of towns that voted for her.
 
-![alt text](https://github.com/bhdavie/bhdavie.github.io/blob/master/images/TownsWonByCandidateFirstRound.png "Logo Title Text 1")
+![](https://github.com/bhdavie/bhdavie.github.io/blob/master/images/TownsWonByCandidateFirstRound.png "Logo Title Text 1")
 
 Not only did she win nearly two thirds of the towns of France, Le Pen also dominated other candidates in percent margin of victory across every town in France.
 
