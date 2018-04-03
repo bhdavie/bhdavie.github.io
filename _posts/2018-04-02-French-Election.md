@@ -3,6 +3,8 @@ layout: post
 title: The 2017 French Presidential Election
 ---
 
+Predicting Voting Patterns of French Towns during the 2017 Presidential Election
+
 
 Project Description:
 
