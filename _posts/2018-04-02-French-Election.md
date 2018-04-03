@@ -41,13 +41,13 @@ With the president determined by popular vote, a presidential candidate gains no
 
 ## Who were the Key Players?
 
-Jean-Luc Mélenchon: A former member of the Socialist Party, Mélenchon started his own party, Unbowed France, in the years leading up to the 2017 election. With the Socialist Party divided, he was able to take away most of the far left wing vote from the Socialist Party candidate Benoit Hamon. Mélenchon campaigned for pro-environmental policies and fought for the working class of France. He was anti-NATO and critical of the French government for its support of America’s wars in the Middle East.
+**Jean-Luc Mélenchon:** A former member of the Socialist Party, Mélenchon started his own party, Unbowed France, in the years leading up to the 2017 election. With the Socialist Party divided, he was able to take away most of the far left wing vote from the Socialist Party candidate Benoit Hamon. Mélenchon campaigned for pro-environmental policies and fought for the working class of France. He was anti-NATO and critical of the French government for its support of America’s wars in the Middle East.
 
-Emmanuel Macron: He defined his party, En Marche!, as neither left nor right. As the former economy minister and the youngest candidate in the race, he was the most moderate of the major candidates. Macron wanted to focus on economic growth while maintaining a strong relationship with the European Union. He was also pro immigration.
+**Emmanuel Macron:** He defined his party, En Marche!, as neither left nor right. As the former economy minister and the youngest candidate in the race, he was the most moderate of the major candidates. Macron wanted to focus on economic growth while maintaining a strong relationship with the European Union. He was also pro immigration.
 
-Francois Fillon: Fillon, the Republican Party primary winner, represented the right of center. As the former Prime Minister, he was an early front runner until a series of scandals set him back in the polls. Fillon was fiscally conservative, wished to streamline the labor code, and wanted to reform the French healthcare insurance system.
+**Francois Fillon:** Fillon, the Republican Party primary winner, represented the right of center. As the former Prime Minister, he was an early front runner until a series of scandals set him back in the polls. Fillon was fiscally conservative, wished to streamline the labor code, and wanted to reform the French healthcare insurance system.
 
-Marine Le Pen: Le Pen represented the National Front, the far right political party of France. Marine Le Pen represented the populist wave of France with strong protectionist views. She was vehemently against the EU with plans to leave the it and return France to the Franc, was anti-immigration, and wished to impose a 35% tax on goods from firms that relocated out of France.
+**Marine Le Pen:** Le Pen represented the National Front, the far right political party of France. Marine Le Pen represented the populist wave of France with strong protectionist views. She was vehemently against the EU with plans to leave the it and return France to the Franc, was anti-immigration, and wished to impose a 35% tax on goods from firms that relocated out of France.
 
 
 
@@ -93,17 +93,17 @@ I decided to use a random forest classification model to predict the first round
 
 There were several features that had a strong impact on model accuracy:
 
-Department Code: The department (equivalent to a district or state in the US) a town was located in was a strong indicator of a town’s voting behavior. This suggested geography had a role to play in the election cycle. Departments in the northeast and French Riviera typically went to Le Pen while departments in the west or departments with large metro areas typically went to Macron.
+**Department Code:** The department (equivalent to a district or state in the US) a town was located in was a strong indicator of a town’s voting behavior. This suggested geography had a role to play in the election cycle. Departments in the northeast and French Riviera typically went to Le Pen while departments in the west or departments with large metro areas typically went to Macron.
 
-Proportion of single adults: Towns with a larger proportion of single adults typically voted for Macron, Fillon, and Mélenchon. This reflected the contrast in urban and rural demographics as single adults typically live in cities. 
+**Proportion of single adults:** Towns with a larger proportion of single adults typically voted for Macron, Fillon, and Mélenchon. This reflected the contrast in urban and rural demographics as single adults typically live in cities. 
 
-Youth Population: The average youth population (ages below 30) was slightly larger for Le Pen relative to other candidates. This includes all ages below 30, not just residents of voting age. The larger proportion of youth was likely connected to families located in suburban and rural areas.
+**Youth Population:** The average youth population (ages below 30) was slightly larger for Le Pen relative to other candidates. This includes all ages below 30, not just residents of voting age. The larger proportion of youth was likely connected to families located in suburban and rural areas.
 
-Proportion of registered voters who expressed an interest in voting: The two candidates from the mainstream parties, Fillon of The Republicans and Hamon of the Socialist Party, won towns with a higher percent of registered voters who expressed an interest in voting. Towns with a larger proportion of interested registered voters were more likely to vote along traditional party lines.
+**Proportion of registered voters who expressed an interest in voting:** The two candidates from the mainstream parties, Fillon of The Republicans and Hamon of the Socialist Party, won towns with a higher percent of registered voters who expressed an interest in voting. Towns with a larger proportion of interested registered voters were more likely to vote along traditional party lines.
 
-Ratio between expressed abstention and registered voters: The political outsiders, Macron and Le Pen, won towns with a higher ratio of expressed abstention to registered voters relative to the other candidates in the field. As registered voters are likely registered to traditional parties, towns with fewer interested registered voters give outsiders a better chance.
+**Proportion of registered voters who expressed an interest in abstention:** The political outsiders, Macron and Le Pen, won towns with a proportion of registered voters who expressed an interest not to vote for any candidate. As registered voters are likely registered to traditional parties, towns with fewer interested registered voters give outsiders a better chance.
 
-Population of the town: As I demonstrated in earlier graphics, population was a major factor in a town’s voting pattern.
+**Population of the town:** As I demonstrated in earlier graphics, population was a major factor in a town’s voting pattern.
 
 
 
@@ -138,11 +138,11 @@ Again I decided to use a random forest classification model to predict the secon
 
 While many features were incorporate, two features carried the greatest weight in the model:
 
-Margin of Victory in the First Round: The percent difference in votes between the first place and second place candidate was the most predictive factor in the second round. If a race was close in the first round, the town almost always went to Macron in the second round. This was likely due to the endorsements from Fillon and Hamon. Below is a graph comparing the margin of victory in the first round and the candidate who won the town in the second round: Towns that were won by a margin below 5%, indicating a close race, are represented by the blue bars and towns that were won by a margin above 5%, indicating a more decisive win, are represented by the orange bars:
+**Margin of Victory in the First Round:** The percent difference in votes between the first place and second place candidate was the most predictive factor in the second round. If a race was close in the first round, the town almost always went to Macron in the second round. This was likely due to the endorsements from Fillon and Hamon. Below is a graph comparing the margin of victory in the first round and the candidate who won the town in the second round: Towns that were won by a margin below 5%, indicating a close race, are represented by the blue bars and towns that were won by a margin above 5%, indicating a more decisive win, are represented by the orange bars:
 
 ![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/TownWinsVsFirstRoundMarginVictory.png)
 
-Whether Le Pen Won the Town in the First Round: The winner of the first round, specifically if Le Pen won the first round, was highly predictive in determining the winner of the second round. Again, Macron greatly benefited from the endorsements of Fillon and Hamon. The endorsements swayed a large number of citizens to vote Macron in the second round, allowing Macron to capture most of the towns won by other candidates in the first round. Not only did Le Pen struggle to pick up towns won by other candidates in the first round, Le Pen also struggled to hold on to many towns that voted for her in the first round. Below is a graph comparing whether the candidate did or did not win the town in the first round and how many towns they won in the second:
+**Whether Le Pen Won the Town in the First Round:** The winner of the first round, specifically if Le Pen won the first round, was highly predictive in determining the winner of the second round. Again, Macron greatly benefited from the endorsements of Fillon and Hamon. The endorsements swayed a large number of citizens to vote Macron in the second round, allowing Macron to capture most of the towns won by other candidates in the first round. Not only did Le Pen struggle to pick up towns won by other candidates in the first round, Le Pen also struggled to hold on to many towns that voted for her in the first round. Below is a graph comparing whether the candidate did or did not win the town in the first round and how many towns they won in the second:
 
 ![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/TownWinsVsFirstRoundLePen.png)
 
