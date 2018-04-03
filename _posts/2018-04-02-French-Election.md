@@ -138,7 +138,7 @@ Again I decided to use a random forest classification model to predict the secon
 
 While many features were incorporate, two features carried the greatest weight in the model:
 
-Margin of Victory in the First Round: The percent difference in votes between the first place and second place candidate was the most predictive factor in the second round. If a race was close in the first round, the town almost always went to Macron in the second round. This was likely due to the endorsements from Fillon and Hamon. Below is a graph comparing the margin of victory in the first round and the candidate who won the town in the second round:
+Margin of Victory in the First Round: The percent difference in votes between the first place and second place candidate was the most predictive factor in the second round. If a race was close in the first round, the town almost always went to Macron in the second round. This was likely due to the endorsements from Fillon and Hamon. Below is a graph comparing the margin of victory in the first round and the candidate who won the town in the second round: Towns that were won by a margin of victory below 5%, indicating a close race, are represented by the blue bars and towns that were won by a margin of victory above 5%, indicating a more decisive win, are represented by the orange bars:
 
 ![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/TownWinsVsFirstRoundMarginVictory.png)
 
