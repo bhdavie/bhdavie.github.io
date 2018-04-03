@@ -56,13 +56,13 @@ Marine Le Pen: Le Pen represented the National Front, the far right political pa
 
 The first round of voting took place on April 23rd with the final vote count announced on April 26th.  While the field contained 11 different candidates, the four major candidates took roughly 85% of the popular vote. 
 
-![](https://github.com/bhdavie/bhdavie.github.io/blob/master/images/FirstRoundPopularVote.png)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/FirstRoundPopularVote.png)
 
 Macron ultimately won the popular vote with 23.96% of the vote, edging out Le Pen who brought in 21.31% of the vote. As the top two candidates in the popular vote, Macron and Le Pen moved on to the second round of votes.
 
 Macron and Le Pen were neck and neck in the first round but the way they got there varied tremendously. The disparity in voter demographics is amplified when we look at the winners of the first round by towns. Despite Macron winning the popular vote, Le Pen dominated every other candidate in the number of towns that voted for her.
 
-![](https://github.com/bhdavie/bhdavie.github.io/blob/master/images/TownsWonByCandidateFirstRound.png)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/TownsWonByCandidateFirstRound.png)
 
 Not only did she win nearly two thirds of the towns of France, Le Pen also dominated other candidates in percent margin of victory across every town in France.
 
