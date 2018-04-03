@@ -66,15 +66,15 @@ Macron and Le Pen were neck and neck in the first round but the way they got the
 
 Not only did she win nearly two thirds of the towns of France, Le Pen also dominated other candidates in percent margin of victory across every town in France.
 
-(Graphic)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/AverageMarginOfVictoryByCandidateFirstRound.png)
 
 Macron was able to neutralize Le Pen’s victories and margins by winning in large metro areas such as Paris. The average population for towns that voted for Macron was 3 times the size as towns that voted for Le Pen.
 
-(Graphic)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/AverageTownSizeWonFirstRound.png)
 
-The following graphic illustrates Macron’s victory:
+The following graphic helps put everything together:
 
-(Big Map Graphic, Round 1)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/FirstRoundHeatMap.png)
 
 Each dot represents the location of an individual town in France. The size of the dot is proportional to the population of the town and the color represents the winner of the town. Blue represents Le Pen, red represents Macron, purple represents Fillon, green represents Mélenchon, and black represents everyone else. 
 
@@ -89,7 +89,7 @@ First Round Predictive Model:
 
 I decided to use a random forest classification model to predict the first round results. After fine-tuning the hyper parameters, I was able to predict the winner of an individual town with 59.5% accuracy. The following is information related to the precision and recall of the model relative to the candidates:
 
-(Graphic)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/FirstRoundModelResults.png)
 
 There were several features that had a strong impact on model accuracy:
 
@@ -115,15 +115,15 @@ The second and final round of the presidential election was held on May 7th, jus
 
 Ultimately Emmanuel Macron won in a landslide with a little over 66% of the popular vote. 
 
-(Graphic)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/PercentPopularVoteByCandidateSecondRound.png)
 
 Macron also dominated in the number of towns won:
 
-(Graphic)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/TownsWonByCandidateSecondRound.png)
 
 Macron’s dominance, in the second round of voting, is evident through this nationwide voting map:
 
-(Big Map Graphic, Second Round)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/SecondRoundHeatMap.png)
 
 Again, red dots represent towns won by Macron and blue dots represent towns won by Le Pen. Not only did he take the vast majority of towns won by other candidates in the first round, Macron also won many towns won by Le Pen in the first round. 
 
@@ -134,17 +134,17 @@ Second Round Prediction Model:
 
 Again I decided to use a random forest classification model to predict the second round results. I was able to predict the winner of an individual town with 88.3% accuracy. The following is information related to the precision and recall of the model relative to the candidates:
 
-(Graphic)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/SecondRoundModelResults.png)
 
 While many features were incorporate, two features carried the greatest weight in the model:
 
 Margin of Victory in the First Round: The percent difference in votes between the first place and second place candidate was the most predictive factor in the second round. If a race was close in the first round, the town almost always went to Macron in the second round. This was likely due to the endorsements from Fillon and Hamon. Below is a graph comparing the margin of victory in the first round and the candidate who won the town in the second round:
 
-(Graphic)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/TownWinsVsFirstRoundMarginVictory.png)
 
 Whether Le Pen Won the Town in the First Round: The winner of the first round, specifically if Le Pen won the first round, was highly predictive in determining the winner of the second round. Again, Macron greatly benefited from the endorsements of Fillon and Hamon. The endorsements swayed a large number of citizens to vote Macron in the second round, allowing Macron to capture most of the towns won by other candidates in the first round. Not only did Le Pen struggle to pick up towns won by other candidates in the first round, Le Pen also struggled to hold on to many towns that voted for her in the first round. Below is a graph comparing whether the candidate did or did not win the town in the first round and how many towns they won in the second:
 
-(Graphic)
+![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/TownWinsVsFirstRoundLePen.png)
 
 As you can see, Le Pen picked up very few towns in the second round while Macron substantially increased the number of towns he won in the second round. 
 
