@@ -56,7 +56,7 @@ Marine Le Pen: Le Pen represented the National Front, the far right political pa
 
 The first round of voting took place on April 23rd with the final vote count announced on April 26th.  While the field contained 11 different candidates, the four major candidates took roughly 85% of the popular vote. 
 
-![alt text](https://github.com/bhdavie/bhdavie.github.io/blob/master/images/FirstRoundPopularVote.png)
+![](https://github.com/bhdavie/bhdavie.github.io/blob/master/images/FirstRoundPopularVote.png)
 
 Macron ultimately won the popular vote with 23.96% of the vote, edging out Le Pen who brought in 21.31% of the vote. As the top two candidates in the popular vote, Macron and Le Pen moved on to the second round of votes.
 
