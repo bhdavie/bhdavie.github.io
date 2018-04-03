@@ -1,4 +1,8 @@
-title: 2017 French Presidential Election
+---
+layout: post
+title: The 2017 French Presidential Election
+---
+
 
 Project Description:
 
