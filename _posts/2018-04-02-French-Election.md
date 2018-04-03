@@ -84,7 +84,7 @@ The contrast between urban and rural voting was a clear differentiator between M
 
 
 
-First Round Predictive Model:
+## First Round Predictive Model:
 
 
 I decided to use a random forest classification model to predict the first round results. After fine-tuning the hyper parameters, I was able to predict the winner of an individual town with 59.5% accuracy. The following is information related to the precision and recall of the model relative to the candidates:
@@ -108,7 +108,7 @@ Population of the town: As I demonstrated in earlier graphics, population was a 
 
 
 
-Second Round Results:
+## Second Round Results:
 
 
 The second and final round of the presidential election was held on May 7th, just two weeks after the first round. Shortly after the first round results were released, Fillon and Hamon both pledged their support for Macron. Mélenchon opted not to reveal his opinions of either candidate, although more of his political views aligned with Macron relative to Le Pen. Only one candidate, Nicolas Dupont-Aignan, endorsed Le Pen in the second round.
@@ -130,7 +130,7 @@ Again, red dots represent towns won by Macron and blue dots represent towns won 
 The significant flip in town victories for Macron stemmed from the endorsements of Fillon and Hamon. Le Pen’s controversial stances on immigration and protectionism alienated much of the French vote. Macron’s moderate stances on most issues convinced members of both the mainstream left wing and right wing political parties to vote in his favor.
 
 
-Second Round Prediction Model:
+## Second Round Prediction Model:
 
 Again I decided to use a random forest classification model to predict the second round results. I was able to predict the winner of an individual town with 88.3% accuracy. The following is information related to the precision and recall of the model relative to the candidates:
 
@@ -150,7 +150,7 @@ As you can see, Le Pen picked up very few towns in the second round while Macron
 
 
 
-Conclusion:
+## Conclusion:
 
 After a decisive victory, Emmanuel Macron became the youngest president in the history of France. His party, ‘La République En Marche!’ went on to win a majority in the National Assembly in 2017, gaining control of 308 of the 577 seats. 
 
@@ -158,7 +158,7 @@ Marine Le Pen conceded her defeat to Macron shortly after the second round resul
 
 
 
-Final Remarks:
+## Final Remarks:
 
 The 2017 French presidential election was an exciting race, and I’m glad I had the opportunity to analyze the results, but I would have liked to explore other demographics and their effects on the election. In particular, I’d like to acquire more demographic data related to ethnicity and employment. Immigration and employment were major issues throughout the election cycle but I didn’t have any data related to either of those issues. 
 
