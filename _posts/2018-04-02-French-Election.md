@@ -68,7 +68,7 @@ Not only did she win nearly two thirds of the towns of France, Le Pen also domin
 
 ![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/AverageMarginOfVictoryByCandidateFirstRound.png)
 
-Macron was able to neutralize Le Pen’s victories and margins by winning in large metro areas such as Paris. The average population for towns that voted for Macron was 3 times the size as towns that voted for Le Pen.
+Macron was able to neutralize Le Pen’s victories and margins by winning in large metro areas such as Paris. The average population for towns that voted for Macron was twice the size as towns that voted for Le Pen.
 
 ![](https://github.com/bhdavie/bhdavie.github.io/raw/master/images/AverageTownSizeWonFirstRound.png)
 
