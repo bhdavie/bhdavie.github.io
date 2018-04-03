@@ -6,7 +6,7 @@ title: The 2017 French Presidential Election
 Predicting the Voting Patterns of French Towns during the 2017 Presidential Election
 
 
-Project Description:
+## Project Description:
 
 Political science has always been of interest to me. For my third Metis project, I analyzed the 2017 French presidential election and built a model to determine the winner of individual towns throughout the country. I was able to build the model using voting and demographic data from INSEE, the French national statistics bureau. 
 
@@ -16,14 +16,14 @@ I hope you enjoy!
 
 
 
-Prologue:
+## Prologue:
 
 
 Since the 1950s, France has always been governed either by a moderate left party such as the Socialist Party or a moderate right party such as the Republicans. The 2017 presidential election, however, marked a shift from the norm as a wave of populist movements swept its way through Western democracies. The results of the French election would not only impact the people of France but the European continent as a whole. Let’s take a look at France’s unique election cycle.
 
 
 
-French Presidential Election: How does it Work?
+## French Presidential Election: How does it Work?
 
 -	France elects a new president once every 5 years.
 -	Anyone who secures 500 valid sponsorships from elected officials can run for office. 
@@ -33,13 +33,13 @@ French Presidential Election: How does it Work?
 
 
 
-Why Look at Towns?
+## Why Look at Towns?
 
 With the president determined by popular vote, a presidential candidate gains no added value for winning an individual town or department. However, identifying the winners of individual towns across France provides us a unique view of the French voter that may otherwise be overlooked. The voting patterns of a given town may be tied to the demographics and characteristics of the town, which can help candidates better understand their constituents.
 
 
 
-Who were the Key Players?
+## Who were the Key Players?
 
 Jean-Luc Mélenchon: A former member of the Socialist Party, Mélenchon started his own party, Unbowed France, in the years leading up to the 2017 election. With the Socialist Party divided, he was able to take away most of the far left wing vote from the Socialist Party candidate Benoit Hamon. Mélenchon campaigned for pro-environmental policies and fought for the working class of France. He was anti-NATO and critical of the French government for its support of America’s wars in the Middle East.
 
@@ -52,7 +52,7 @@ Marine Le Pen: Le Pen represented the National Front, the far right political pa
 
 
 
-First Round Results:
+## First Round Results:
 
 The first round of voting took place on April 23rd with the final vote count announced on April 26th.  While the field contained 11 different candidates, the four major candidates took roughly 85% of the popular vote. 
 
@@ -62,7 +62,7 @@ Macron ultimately won the popular vote with 23.96% of the vote, edging out Le Pe
 
 Macron and Le Pen were neck and neck in the first round but the way they got there varied tremendously. The disparity in voter demographics is amplified when we look at the winners of the first round by towns. Despite Macron winning the popular vote, Le Pen dominated every other candidate in the number of towns that voted for her.
 
-(Graphic)
+![alt text](https://github.com/bhdavie/bhdavie.github.io/blob/master/images/TownsWonByCandidateFirstRound.png)
 
 Not only did she win nearly two thirds of the towns of France, Le Pen also dominated other candidates in percent margin of victory across every town in France.
 
