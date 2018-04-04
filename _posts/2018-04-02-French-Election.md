@@ -41,7 +41,7 @@ With the president determined by popular vote, a presidential candidate gains no
 
 ## Who were the Key Players?
 
-**Jean-Luc Mélenchon:** A former member of the Socialist Party, Mélenchon started his own party, Unbowed France, in the years leading up to the 2017 election. With the Socialist Party divided, he was able to take away most of the far left wing vote from the Socialist Party candidate Benoit Hamon. Mélenchon campaigned for pro-environmental policies and fought for the working class of France. He was anti-NATO and critical of the French government for its support of America’s wars in the Middle East.
+**Jean-Luc Mélenchon:** A former member of the Socialist Party, Mélenchon started his own party, la France Insoumise, in the years leading up to the 2017 election. He is arguably the most far left politically of all the major candidates. With the Socialist Party divided on policy, Mélechon was able to take away most of the center left wing vote from the Socialist Party candidate Benoit Hamon. Mélenchon campaigned for pro-environmental policies and fought for the working class of France. He was anti-NATO and critical of the French government for its support of America’s wars in the Middle East.
 
 **Emmanuel Macron:** He defined his party, En Marche!, as neither left nor right. As the former economy minister and the youngest candidate in the race, he was the most moderate of the major candidates. Macron wanted to focus on economic growth while maintaining a strong relationship with the European Union. He was also pro immigration.
 
