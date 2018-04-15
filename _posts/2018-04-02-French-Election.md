@@ -47,11 +47,8 @@ With the president determined by popular vote, a presidential candidate gains no
 
 **Francois Fillon:** Fillon, the Republican Party primary winner, represented the right of center. As the former Prime Minister, he was an early front runner until a series of scandals set him back in the polls. Fillon was fiscally conservative, wished to streamline the labor code, and wanted to reform the French healthcare insurance system.
 
-<<<<<<< HEAD
-Marine Le Pen: Le Pen represented the National Front, the far right political party of France. Marine Le Pen represented the populist wave of France with strong protectionist views. She was vehemently against the EU with plans to leave it and return France to the Franc, was anti-immigration, and wished to impose a 35% tax on goods from firms that relocated out of France.
-=======
-**Marine Le Pen:** Le Pen represented the National Front, the far right political party of France. Marine Le Pen represented the populist wave of France with strong protectionist views. She was vehemently against the EU with plans to leave the it and return France to the Franc, was anti-immigration, and wished to impose a 35% tax on goods from firms that relocated out of France.
->>>>>>> cc5745d61d1b2d7cc96065912b9210971c5e267b
+**Marine Le Pen**: Le Pen represented the National Front, the far right political party of France. Marine Le Pen represented the populist wave of France with strong protectionist views. She was vehemently against the EU with plans to leave it and return France to the Franc, was anti-immigration, and wished to impose a 35% tax on goods from firms that relocated out of France.
+
 
 
 
